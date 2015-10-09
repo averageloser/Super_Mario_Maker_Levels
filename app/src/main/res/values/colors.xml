@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#D44D0B</color>
+    <color name="yellow">#FFCF01</color>
+    <color name="yellowDark">#FBA510</color>
+    <color name="mario_red">#F43B0F</color>
+    <color name="mario_red_dark">#F80C0C</color>
+    <color name="mario_sky_blue">#7E9BE7</color>
+</resources>
