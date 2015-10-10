@@ -32,7 +32,7 @@ public class ResultsListFragmentPagerAdapter<T> extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 3;
+        return fragments.size();
     }
 
     public ResultsListFragment getItem(int position) {
