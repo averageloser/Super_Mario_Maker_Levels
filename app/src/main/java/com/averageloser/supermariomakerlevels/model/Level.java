@@ -7,18 +7,13 @@ package com.averageloser.supermariomakerlevels.model;
  */
 public class Level {
     private String name; //The level name
-    private String description; //The summary of the level.
-    private String creator; //The creator of the level.
-    private String dateTime; //The date and time the level was added to the database.
+    private String code; //the code to access the level.
     private int rating; //How many people liked this level.
     private int flag; //How many times was this level flagged as inappropriate?
 
-    public Level(String name, String description, String creator, int rating, int flag) {
+    public Level(String name, String code) {
         this.setName(name);
-        this.setDescription(description);
-        this.setCreator(creator);
-        this.setRating(rating);
-        this.setFlag(flag);
+        this.setCode(code);
     }
 
     public String getName() {
@@ -27,22 +22,6 @@ public class Level {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public String getCreator() {
-        return creator;
-    }
-
-    public void setCreator(String creator) {
-        this.creator = creator;
     }
 
     public int getRating() {
@@ -59,5 +38,13 @@ public class Level {
 
     public void setFlag(int flag) {
         this.flag = flag;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
     }
 }
