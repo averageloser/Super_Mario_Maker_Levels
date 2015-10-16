@@ -5,13 +5,13 @@
     android:id="@+id/ripple"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="10dp"
-    app:mrl_rippleColor="@color/mario_red_dark">
+    app:mrl_rippleColor="@color/mario_red_dark"
+    android:padding="10dp">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/white">
+        android:background="@android:color/transparent">
 
         <ImageView
             android:id="@+id/icon_image_view"

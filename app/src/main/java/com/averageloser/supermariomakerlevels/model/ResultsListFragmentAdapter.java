@@ -96,9 +96,6 @@ public class ResultsListFragmentAdapter extends ArrayAdapter<Level> {
         Drawable bowser = getContext().getResources().getDrawable(R.drawable.bowser);
         Drawable waluigi = getContext().getResources().getDrawable(R.drawable.waluigi);
 
-
-
-
         List<Drawable> drawables = new ArrayList();
         drawables.add(mario);
         drawables.add(goomba);
